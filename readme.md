@@ -89,7 +89,7 @@ The system logs all transactions to a file named `banking.log`. The log file con
 ## Author
 --------
 
-Sebastian Hsiao
+M. Sebastian Hsiao
 
 [![GitHub](https://img.shields.io/badge/GitHub-journilab-blue.svg)](https://github.com/journilab)
 
