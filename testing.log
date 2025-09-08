@@ -1,0 +1,122 @@
+Line[25] {INFO}: --- >>>> Starting ATM <<<< ---
+Line[34] {ERROR}: Error! Invalid pin.
+Line[47] {WARNING}: Warning! You entered a negative number to deposit.
+Line[63] {ERROR}: Error! You entered a non-number value to deposit.
+Line[64] {INFO}: Transaction Info:
+Line[65] {INFO}: Status: Failed
+Line[66] {INFO}: Transaction #236445
+Line[67] {INFO}: Timestamp: 2025-09-03 17:27:59.702230
+Line[63] {ERROR}: Error! You entered a non-number value to deposit.
+Line[64] {INFO}: Transaction Info:
+Line[65] {INFO}: Status: Failed
+Line[66] {INFO}: Transaction #614932
+Line[67] {INFO}: Timestamp: 2025-09-03 17:28:03.417079
+Line[53] {INFO}: Amount Deposited: $340.0
+Line[54] {INFO}: Transaction Info:
+Line[55] {INFO}: Status: Successful
+Line[56] {INFO}: Transaction #638846
+Line[57] {INFO}: Timestamp: 2025-09-03 17:28:18.021893
+Line[85] {ERROR}: Error! Negative withdrawal amount entered.
+Line[104] {ERROR}: Error! You entered a non-number value to withdraw.
+Line[105] {INFO}: Transaction Info:
+Line[106] {INFO}: Status: Failed
+Line[107] {INFO}: Transaction #108960
+Line[108] {INFO}: Timestamp: 2025-09-03 17:28:59.270852
+Line[104] {ERROR}: Error! You entered a non-number value to withdraw.
+Line[105] {INFO}: Transaction Info:
+Line[106] {INFO}: Status: Failed
+Line[107] {INFO}: Transaction #448448
+Line[108] {INFO}: Timestamp: 2025-09-03 17:29:07.676268
+Line[96] {INFO}: You withdrew: $50.0
+Line[97] {INFO}: Transaction Info:
+Line[98] {INFO}: Status: Successful
+Line[99] {INFO}: Transaction #881617
+Line[114] {INFO}: --- >>>> End ATM Operation <<<< ---
+Line[25] {INFO}: --- >>>> Starting ATM <<<< ---
+Line[47] {WARNING}: Warning! You entered a negative number to deposit.
+Line[63] {ERROR}: Error! You entered a non-number value to deposit.
+Line[64] {INFO}: Transaction Info:
+Line[65] {INFO}: Status: Failed
+Line[66] {INFO}: Transaction #784649
+Line[67] {INFO}: Timestamp: 2025-09-03 17:33:40.986776
+Line[25] {INFO}: --- >>>> Starting ATM <<<< ---
+Line[47] {WARNING}: Warning! You entered a negative number to deposit.
+Line[53] {INFO}: Amount Deposited: $-10.0
+Line[54] {INFO}: Transaction Info:
+Line[55] {INFO}: Status: Successful
+Line[56] {INFO}: Transaction #138252
+Line[57] {INFO}: Timestamp: 2025-09-03 17:35:31.993338
+Line[90] {ERROR}: Error! Insufficient balance to complete withdraw.
+Line[96] {INFO}: You withdrew: $20.0
+Line[97] {INFO}: Transaction Info:
+Line[98] {INFO}: Status: Successful
+Line[99] {INFO}: Transaction #296029
+Line[114] {INFO}: --- >>>> End ATM Operation <<<< ---
+Line[23] {INFO}: --- >>>> Starting ATM <<<< ---
+Line[24] {DEBUG}: Current Acc Balance: $100
+Line[29] {DEBUG}: Pin entered: 123
+Line[32] {ERROR}: Error! Invalid pin.
+Line[29] {DEBUG}: Pin entered: 1234
+Line[40] {DEBUG}: Amount to deposit: $-120.0
+Line[45] {ERROR}: Error! Negative withdrawal amount entered.
+Line[40] {DEBUG}: Amount to deposit: $20.0
+Line[52] {INFO}: Amount Deposited: $20.0
+Line[53] {INFO}: Transaction Info:
+Line[54] {INFO}: Status: Successful
+Line[55] {INFO}: Transaction #260344
+Line[56] {INFO}: Timestamp: 2025-09-08 14:59:16.187300
+Line[57] {DEBUG}: New Acc Balance: $120.0
+Line[73] {DEBUG}: Amount to withdraw: $-40.0
+Line[84] {ERROR}: Error! Negative value entered.
+Line[73] {DEBUG}: Amount to withdraw: $200.0
+Line[89] {ERROR}: Error! Insufficient balance to complete withdraw.
+Line[73] {DEBUG}: Amount to withdraw: $70.0
+Line[96] {WARNING}: You are about to withdraw $70.0 from your check account. Please Confirm
+Line[102] {INFO}: User confirmed withdrawal of $70.0
+Line[114] {INFO}: You withdrew: $70.0
+Line[115] {INFO}: Transaction Info:
+Line[116] {INFO}: Status: Successful
+Line[117] {INFO}: Transaction #773466
+Line[131] {DEBUG}: Account Balance = $50.0
+Line[132] {INFO}: --- >>>> End ATM Operation <<<< ---
+[29]{INFO}: --- >>>> Starting ATM <<<< ---
+[30]{DEBUG}: Current Acc Balance: $100
+[35]{DEBUG}: Pin entered: 1234
+[47]{DEBUG}: Amount to deposit: $50.0
+[59]{INFO}: Amount Deposited: $50.0
+[60]{INFO}: Transaction Info:
+[61]{INFO}: Status: Successful
+[62]{INFO}: Transaction #695746
+[63]{INFO}: Timestamp: 2025-09-08 15:24:43.772453
+[64]{DEBUG}: New Acc Balance: $150.0
+[82]{DEBUG}: Amount to withdraw: $200.0
+[98]{ERROR}: Error! Insufficient balance to complete withdraw.
+[82]{DEBUG}: Amount to withdraw: $150.0
+[105]{WARNING}: You are about to withdraw $150.0 from your check account. Please Confirm
+[111]{INFO}: User confirmed withdrawal of $150.0
+[123]{INFO}: You withdrew: $150.0
+[124]{INFO}: Transaction Info:
+[125]{INFO}: Status: Successful
+[126]{INFO}: Transaction #586411
+[141]{DEBUG}: Account Balance = $0.0
+[142]{INFO}: --- >>>> End ATM Operation <<<< ---
+[29]{INFO}: --- >>>> Starting ATM <<<< ---
+[30]{DEBUG}: Current Acc Balance: $100
+[35]{DEBUG}: Pin entered: 1234
+[47]{DEBUG}: Amount to deposit: $50.0
+[59]{INFO}: Amount Deposited: $50.0
+[60]{INFO}: Transaction Info:
+[61]{INFO}: Status: Successful
+[62]{INFO}: Transaction #916750
+[63]{INFO}: Timestamp: 2025-09-08 15:26:49.795108
+[64]{DEBUG}: New Acc Balance: $150.0
+[82]{DEBUG}: Amount to withdraw: $10.0
+[105]{WARNING}: You are about to withdraw $10.0 from your check account. Please Confirm
+[109]{DEBUG}: confirmation input: yes
+[112]{INFO}: User confirmed withdrawal of $10.0
+[124]{INFO}: You withdrew: $10.0
+[125]{INFO}: Transaction Info:
+[126]{INFO}: Status: Successful
+[127]{INFO}: Transaction #817558
+[142]{DEBUG}: Account Balance = $140.0
+[143]{INFO}: --- >>>> End ATM Operation <<<< ---
