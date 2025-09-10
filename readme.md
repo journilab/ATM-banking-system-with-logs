@@ -37,7 +37,7 @@ This project is a simple implementation of an ATM banking system using Python. T
 ### Prerequisites
 
 * Python 3.13.3 or later
-* `logging` and `datetime` modules
+* Modules used: `sys`, `logging`, `datetime`, `random`
 
 ### Installation
 
