@@ -1,5 +1,4 @@
 # ATM Banking System
----------------------
 
 ## Overview
 
@@ -24,7 +23,6 @@ This project is a simple implementation of an ATM banking system using Python. T
   - [Licence](#licence)
 
 ## Features
-------------
 
 * User authentication using a 4-digit PIN
 * Deposit and withdrawal of funds
@@ -32,7 +30,6 @@ This project is a simple implementation of an ATM banking system using Python. T
 * Transaction logging
 
 ## Usage
----------
 
 ### Prerequisites
 
@@ -52,7 +49,6 @@ This project is a simple implementation of an ATM banking system using Python. T
 3. Select an option from the menu to perform a banking operation.
 
 ### Implementation
------------------
 
 #### Architecture
 
@@ -64,9 +60,9 @@ The script is organized into the following sections:
 
 * `BankAccount` class: defines the account balance and performs banking operations
 * `authenticate` function: authenticates the user using a 4-digit PIN
-* [deposit](cci:1://file:///Users/matth/AI%20Folder/github_repo/python_projects/atm_logs/SCRIPT.py:43:2-76:53) function: deposits funds into the account
+* `deposit` function: deposits funds into the account
 * `withdraw` function: withdraws funds from the account
-* [display](cci:1://file:///Users/matth/AI%20Folder/github_repo/python_projects/atm_logs/solution_sample1.py:67:2-68:48) function: displays the account balance
+* `display` function: displays the account balance
 
 ### Key Components
 
@@ -74,18 +70,15 @@ The script is organized into the following sections:
 * `logger` object: logs transactions using the `logging` module
 
 ## Example Use Cases
----------------------
 
 * Deposit $50 into the account
 * Withdraw $20 from the account
 * Check the account balance
 
 ## Transaction Logging
-----------------------
 
 The system logs all transactions to a file named `banking.log`. The log file contains the date, time, and details of each transaction.
 
 ## Licence
------------
 
-This project is licensed under the MIT License. Reffer to the `LICENSE` file for more information.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) file for more information.
