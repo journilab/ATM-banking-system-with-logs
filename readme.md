@@ -24,17 +24,17 @@ This project is a simple implementation of an ATM banking system using Python. T
 
 ## Features
 
-* User authentication using a 4-digit PIN
-* Deposit and withdrawal of funds
-* Account balance inquiry
-* Transaction logging
+- User authentication using a 4-digit PIN
+- Deposit and withdrawal of funds
+- Account balance inquiry
+- Transaction logging
 
 ## Usage
 
 ### Prerequisites
 
-* Python 3.13.3 or later
-* Modules used: `sys`, `logging`, `datetime`, `random`
+- Python 3.13.3 or later
+- Modules used: `sys`, `logging`, `datetime`, `random`
 
 ### Installation
 
@@ -58,22 +58,22 @@ The project consists of a single Python script `script.py` that implements the A
 
 The script is organized into the following sections:
 
-* `BankAccount` class: defines the account balance and performs banking operations
-* `authenticate` function: authenticates the user using a 4-digit PIN
-* `deposit` function: deposits funds into the account
-* `withdraw` function: withdraws funds from the account
-* `display` function: displays the account balance
+- `BankAccount` class: defines the account balance and performs banking operations
+- `authenticate` function: authenticates the user using a 4-digit PIN
+- `deposit` function: deposits funds into the account
+- `withdraw` function: withdraws funds from the account
+- `display` function: displays the account balance
 
 ### Key Components
 
-* `BankAccount` class: defines the account balance and performs banking operations
-* `logger` object: logs transactions using the `logging` module
+- `BankAccount` class: defines the account balance and performs banking operations
+- `logger` object: logs transactions using the `logging` module
 
 ## Example Use Cases
 
-* Deposit $50 into the account
-* Withdraw $20 from the account
-* Check the account balance
+- Deposit $50 into the account
+- Withdraw $20 from the account
+- Check the account balance
 
 ## Transaction Logging
 
