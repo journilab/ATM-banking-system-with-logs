@@ -21,7 +21,6 @@ This project is a simple implementation of an ATM banking system using Python. T
     - [Key Components](#key-components)
   - [Example Use Cases](#example-use-cases)
   - [Transaction Logging](#transaction-logging)
-  - [Author](#author)
   - [Licence](#licence)
 
 ## Features
@@ -86,21 +85,12 @@ The script is organized into the following sections:
 
 The system logs all transactions to a file named `banking.log`. The log file contains the date, time, and details of each transaction.
 
-## Author
---------
-
-M. Sebastian Hsiao
-
-[![GitHub](https://img.shields.io/badge/GitHub-journilab-blue.svg)](https://github.com/journilab)
-
-**Date:** 2025-09-08
-
 ## Licence
 -----------
 
 This project is licensed under the MIT License.
 
-Copyright (c) 2021 Sebastian Hsiao
+Copyright (c) 2021 Matthew Sebastian H.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
